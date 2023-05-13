@@ -2,7 +2,7 @@
 
 args="$@"
 
-args="$@ -p 80"
+args="$@ -p 80 --watch"
 
 file=/data/db.json
 if [ -f $file ]; then
